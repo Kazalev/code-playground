@@ -8,7 +8,19 @@
 </head>
 
 <body>
-    <h1>Welcome to the home page</h1>
+    <h1>Posts</h1>
+
+    <form id="add-post-form">
+        <label for="title">Title:</label> <br />
+        <input type="text" id="title" name="title" /> <br />
+
+        <button type="submit">Add Post</button>
+    </form>
+
+    <button id="fetchPosts">Fetch Posts</button>
+    <div id="output"></div>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
