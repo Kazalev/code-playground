@@ -1,0 +1,60 @@
+:root {
+    --theme-yellow: #f6cd25;
+    --theme-red: #dc163b;
+}
+
+body {
+    font-family: "Poppins";
+    margin: 0;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Geo";
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+p {
+    color: #777;
+}
+
+/* layout style */
+.container {
+    max-width: 1260px;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+footer {
+    background: #ddd;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1
+}
+
+/* buttons */
+button {
+    background-color: var(--theme-red);
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+/* blog grid */
+.blogs {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
