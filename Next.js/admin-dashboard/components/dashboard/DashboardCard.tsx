@@ -1,5 +1,5 @@
 import { LucideIcon } from 'lucide-react'
-import { Card, CardContent } from '../card'
+import { Card, CardContent } from '../ui/card'
 import { ReactElement } from 'react'
 
 interface DashboardCardProps {
