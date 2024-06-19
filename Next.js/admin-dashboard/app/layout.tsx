@@ -1,8 +1,10 @@
+import { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
-import './globals.css'
 import Sidebar from '@/components/Sidebar'
+import { Toaster } from '@/components/ui/toaster'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,11 +13,7 @@ export const metadata: Metadata = {
     description: 'Admin Dashboard'
 }
 
-export default function RootLayout({
-    children
-}: Readonly<{
-    children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
     return (
         <html lang='en'>
             <body className={inter.className}>
@@ -27,6 +25,7 @@ export default function RootLayout({
                     <div className='p-5 w-full md:max-w-[1140px]'>{children}</div>
                 </div>
             </body>
+            <Toaster />
         </html>
     )
 }
