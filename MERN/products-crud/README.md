@@ -1,6 +1,6 @@
 <h1 align="center">MERN CRUD Application 🚀</h1>
 
-![Demo App](MERN/products-crud/frontend/public/screenshot-for-readme.png)
+![Demo App](frontend/public/screenshot-for-readme.png)
 
 About This Project:
 
