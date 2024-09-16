@@ -1,6 +1,6 @@
 <h1 align="center">MERN CRUD Application 🚀</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+![Demo App](MERN/products-crud/frontend/public/screenshot-for-readme.png)
 
 About This Project:
 
@@ -28,5 +28,3 @@ npm run build
 ```shell
 npm run start
 ```
-
-### I'll see you in the next one! 🚀
